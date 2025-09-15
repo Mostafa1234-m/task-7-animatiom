@@ -1,0 +1,108 @@
+.div1{
+width: 150px;
+height: 80px;
+background-color: blue;
+position: absolute;
+left: 0;
+animation-name: change-1;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+animation-delay: 0s;
+animation-timing-function: linear;
+}
+@keyframes change-1 {
+    0% { background-color: yellow;}
+    50% {background-color: blue;}
+    100% {left:1220px;}
+}
+.div2{
+width: 150px;
+height: 80px;
+background-color: blue;
+position: absolute;
+right: 0;
+top: 93px;
+animation-name: change-2;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+animation-delay: 3s;
+animation-timing-function: linear;
+}
+@keyframes change-2 {
+    0% { background-color: yellow;}
+    50% {background-color: blue;}
+    100% {right: 1220px;}
+}
+.div3{
+width: 150px;
+height: 80px;
+background-color: blue;
+position: absolute;
+left: 0;
+top: 178px;
+animation-name: change-3;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+animation-delay: 6s;
+animation-timing-function: linear;
+}
+@keyframes change-3 {
+    0% { background-color: yellow;}
+    50% {background-color: blue;}
+    100% {left: 1220px;}
+}
+.div4{
+width: 150px;
+height: 80px;
+background-color: blue;
+position: absolute;
+right: 0;
+top: 263px;
+animation-name: change-4;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+animation-delay: 9s;
+animation-timing-function: linear;
+}
+@keyframes change-4 {
+    0% { background-color: yellow;}
+    50% {background-color: blue;}
+    100% {right: 1220px;}
+}
+.div5{
+width: 150px;
+height: 80px;
+background-color: blue;
+position: absolute;
+left: 0;
+top: 348px;
+animation-name: change-5;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+animation-delay: 12s;
+animation-timing-function: linear;
+}
+@keyframes change-5 {
+    0% { background-color: yellow;}
+    50% {background-color: blue;}
+    100% {left: 1220px;}
+}
+.div6{
+width: 150px;
+height: 80px;
+background-color: blue;
+position: absolute;
+right: 0;
+top: 433px;
+animation-name: change-4;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+animation-delay: 15s;
+animation-timing-function: linear;
+}
+@keyframes change-4 {
+    0% { background-color: yellow;}
+    50% {background-color: blue;}
+    100% {right: 1220px;}
+}
+
